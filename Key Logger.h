@@ -1,5 +1,6 @@
 ﻿#pragma once
 
+//Libraries
 #include <iostream>
 #include <fstream>
 #include <Windows.h>
@@ -7,6 +8,7 @@
 #include <string>
 using namespace std;
 
+//A Function That Will Help Us To Change Colour According To Situation
 void setColour(string color)
 {
 	HANDLE col;
